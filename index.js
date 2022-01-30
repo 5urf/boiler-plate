@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
-const port = 5000;
 const bodyParser = require("body-parser");
 require("dotenv").config();
+const port = process.env.PORT;
 
 const { User } = require("./models/User");
 // application / x-www-form-urlencoded 분석
