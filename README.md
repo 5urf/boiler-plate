@@ -2,4 +2,4 @@
 
 ---
 
-## 노드 강의 기록
+## Node.js && React.js && Redux 강의 기록
